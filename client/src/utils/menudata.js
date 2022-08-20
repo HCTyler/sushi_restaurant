@@ -1,4 +1,3 @@
-import React from 'react'
 
 function menudata() {
     const menuFood = [
@@ -6,8 +5,86 @@ function menudata() {
             category:"Starter",
             dish:"Edamame",
             price:"6",
-            ingredient:"soybeans"
-        }
+            ingredient:"soybeans",
+        },
+        {
+            category:"Starter",
+            dish:"Yasai Tempura",
+            price:"9",
+            ingredient:"Vegetables",
+        },
+        {
+            category:"",
+            dish:"",
+            price:"",
+            ingredient:"",
+        },
+        {
+            category:"",
+            dish:"",
+            price:"",
+            ingredient:"",
+        },
+        {
+            category:"",
+            dish:"",
+            price:"",
+            ingredient:"",
+        },
+        {
+            category:"",
+            dish:"",
+            price:"",
+            ingredient:"",
+        },
+        {
+            category:"",
+            dish:"",
+            price:"",
+            ingredient:"",
+        },
+        {
+            category:"",
+            dish:"",
+            price:"",
+            ingredient:"",
+        },
+        {
+            category:"",
+            dish:"",
+            price:"",
+            ingredient:"",
+        },
+        {
+            category:"",
+            dish:"",
+            price:"",
+            ingredient:"",
+        },
+        {
+            category:"",
+            dish:"",
+            price:"",
+            ingredient:"",
+        },
+        {
+            category:"",
+            dish:"",
+            price:"",
+            ingredient:"",
+        },
+        {
+            category:"",
+            dish:"",
+            price:"",
+            ingredient:"",
+        },
+        {
+            category:"",
+            dish:"",
+            price:"",
+            ingredient:"",
+        },
     ]
 }
 
