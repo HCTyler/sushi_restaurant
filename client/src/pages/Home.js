@@ -1,24 +1,23 @@
 import React from 'react'
-import { ParallaxBanner } from 'react-scroll-parallax';
+import Background1 from '../assets/Background1.jpg'
 
 function Home() {
-  return (
 
-    <ParallaxBanner
-    layers={[
-      { image: '../assets/Cover1.jpg', speed: -20 },
-      {
-        speed: -15,
-        children: (
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-8xl text-white font-thin">Sushi Resturant</h1>
-          </div>
-        ),
-      },
-      { image: '/static/banner-foreground.png', speed: -10 },
-    ]}
-    className="aspect-[2/1]"
-  />
+    var sectionStyle = {
+        width: "100%",
+        height: "400px",
+        backgroundImage: "url(" + { Background1 } + ")",
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat'
+      };
+
+  return (
+      <div>
+          <h1>Sushi Resturaunt</h1>
+          <section style={sectionStyle}>
+          </section>
+      </div>
   )
 }
 
